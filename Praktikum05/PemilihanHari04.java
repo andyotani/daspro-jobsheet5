@@ -1,6 +1,3 @@
-/**
- * PemilihanHari04
- */
 import java.util.Scanner;
 
 public class PemilihanHari04 {

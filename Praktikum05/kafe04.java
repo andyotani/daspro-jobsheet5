@@ -29,6 +29,10 @@ public class kafe04 {
             case "coklat":
                 hargaMenu = 20000;
                 break;
+                default:
+                System.out.println("Menu tidak valid.");
+                sc.close();
+                return;
         }
 
         double totalHarga = hargaMenu * jumlah;
@@ -42,6 +46,10 @@ public class kafe04 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+                default:
+                System.out.println("Ukuran cup tidak valid.");
+                sc.close();
+                return;
         }
 
         double diskon = keanggotaan ? 0.1 : 0;
@@ -51,3 +59,4 @@ public class kafe04 {
         System.out.println("Nominal Bayar: " + nominalBayar);
     }
 }
+

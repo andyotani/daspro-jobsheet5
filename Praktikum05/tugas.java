@@ -28,11 +28,11 @@ public class tugas {
 
         nilaiAkhir = ((nilaikuis * 0.20) + (nilaitugas * 0.15) + (nilaiUTS * 0.30 ) + (nilaiUAS * 0.35));
 
-        System.out.println("Nama: " + nama + " NIM: " + nim);
-        System.out.println("Kelas: " + kelas + " Absen: " + absen);
-        System.out.println("Nilai Akhir: " + nilaiAkhir);
+            System.out.println("Nama: " + nama + " NIM: " + nim);
+            System.out.println("Kelas: " + kelas + " Absen: " + absen);
+            System.out.println("Nilai Akhir: " + nilaiAkhir);
 
-        // Determine letter grade and qualification
+        // kualifikasi nilai
         char grade;
         String qualification;
 
